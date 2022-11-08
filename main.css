@@ -7,7 +7,7 @@ body{
 ul {
     list-style: none;
     overflow: hidden;
-    background-color: rgb(52, 49, 49);
+    background-color: rgb(96, 101, 94);
     margin: 0;
     padding: 0;
 }
@@ -16,7 +16,7 @@ li {
 
 }
 
-li a, .dropbtn{
+li a{
     display: inline-block;
     color: orange;
     text-align: center;
@@ -24,7 +24,7 @@ li a, .dropbtn{
     text-decoration: none;
     
 }
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover, .dropdown:hover {
     background-color: rgb(151, 104, 11) ;
 }
 
@@ -49,7 +49,7 @@ li.dropdown{
     text-align: left;
 }
 .dropdown-content a:hover {
-    background-color: red;
+    background-color: rgb(151, 104, 11);
 
 }
 .dropdown:hover .dropdown-content{
@@ -231,6 +231,5 @@ tr:hover {
 }
 /* THAY ĐỔI MÀU KHI BÔI ĐEN ĐOẠN VĂN BẢN */
 ::selection{
-    background:#046386;
-    
+    background:#046386; 
 };

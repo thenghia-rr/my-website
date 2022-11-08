@@ -7,7 +7,7 @@ body{
 ul {
     list-style: none;
     overflow: hidden;
-    background-color: gray;
+    background-color: rgb(52, 49, 49);
     margin: 0;
     padding: 0;
 }
@@ -25,7 +25,7 @@ li a, .dropbtn{
     
 }
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: red ;
+    background-color: rgb(151, 104, 11) ;
 }
 
 li.dropdown{
@@ -91,14 +91,20 @@ li.dropdown{
    
 }
 
-
+/* THẺ H2 VÀ H3  */
 h2{
     border:2px solid;
     text-align: center;
-    background-color:rgb(60, 60, 60);
+   
     color:rgba(235, 146, 13, 0.87);
     font-size:30px;
       
+}
+h3{
+    
+    text-align: right;
+    color:rgba(235, 146, 13, 0.87);
+    font-size:20px;
 }
 /* TÊN XE VÀ THÔNG TIN */
 .namecar{
@@ -225,6 +231,6 @@ tr:hover {
 }
 /* THAY ĐỔI MÀU KHI BÔI ĐEN ĐOẠN VĂN BẢN */
 ::selection{
-    background:#f8950a;
+    background:#046386;
     
 };

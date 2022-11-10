@@ -111,11 +111,15 @@ h3{
     font-size:22px;
     font-family:verdana; 
     color:aliceblue;
+    
 
 }
+/* ĐOẠN VĂN GIỚI THIỆU */
 blockquote{
     color:aliceblue;
     font-size: 18px;
+    margin: 30px ;
+    
 }
 /* THÔNG TIN CHI TIẾT */
 .details{
@@ -147,79 +151,80 @@ h6{
 }
 
 
-/* ZOOM GHOST & VIỀN */
+/* ẢNH ZOOM GHOST & VIỀN */
 .ghost {
     transition: all 0.8s ease;
+    border: 1px solid orange ;
+    left: 30px;
+    
 }
 .ghost:hover {
     transform: scale(1.2,1.2)
 }
-.ghost{
-    border: 1px solid orange ;
-}
 
-/* ZOOM WRAITH & VIỀN */
+/*  ẢNH ZOOM WRAITH & VIỀN */
 .wraith {
     transition: all 0.8s ease;
+    border: 1px solid orange;
+    left: 30px;
 }
 .wraith:hover {
     transform: scale(1.2,1.2)
 }
-.wraith{
-    border: 1px solid orange;
-} 
 
-/* ZOOM CULLINAN & VIỀN */
+
+/*ẢNH ZOOM CULLINAN & VIỀN */
 .cullinan {
     transition: all 0.8s ease;
+    border: 1px solid orange;
+    left: 30px;
 }
 .cullinan:hover {
     transform: scale(1.2,1.2)
 }
-.cullinan{
-    border: 1px solid orange;
-}
 
-/* ZOOM PHANTOM & VIỀN */
+/*ẢNH ZOOM PHANTOM & VIỀN */
 .phantom {
     transition: all 0.8s ease;
+    border: 1px solid orange;
+    left: 30px;
 }
 .phantom:hover {
     transform: scale(1.2,1.2)
 }
-.phantom{
-    border: 1px solid orange;
-}
 
-/* ZOOM DAWN  & VIỀN*/
+/*ẢNH ZOOM DAWN  & VIỀN*/
 .dawn {
     transition: all 0.8s ease;
+    border: 1px solid orange;
+    left: 30px;
 }
 .dawn:hover {
     transform: scale(1.2,1.2)
 }
-.dawn{
-    border: 1px solid orange;
-}
 
-/* ZOOM BOAT-TAIL & VIỀN */
+
+/*ẢNH ZOOM BOAT-TAIL & VIỀN */
 .boattail {
     transition: all 0.8s ease;
+    border: 1px solid orange;
+    left: 30px;
 }
 .boattail:hover {
     transform: scale(1.2,1.2);
 }
-.boattail{
-    border: 1px solid orange;
-};
+/* BẢNG THÔNG SỐ KĨ THUẬT  */
 table {
     font-family: arial, sans-serif;  
     border-collapse: collapse;
     width: 80%;
+    font-size: 13px;
+    margin-left: 30px;
+    
     
 }  
 td, th {
-    border: 1px solid orange;
+    border: 1px solid rgb(151, 150, 147);
     text-align: left;
     padding: 8px;
     color:aliceblue;
